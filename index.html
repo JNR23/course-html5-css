@@ -5,22 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="stylesheet" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>Curso de HTML5 + CSS</title>
 </head>
 
 <body>
 
     <header class="header">
-        <div class="header-content">
+        <div class="content">
             <div class="logo">
                 <a href="#">
                     <img src="images/logo.png" alt="HTML e CSS Pro">
                 </a>
             </div>
 
+            <a href="#" class="nav-toggle fl-right">
+                <i class="fas fa-bars"></i> MENU
+            </a>
+
             <nav class="nav">
+                <p class="text-right">
+                    <span class="nav-close">
+                        <i class="fas fa-times"></i> SAIR
+                    </span>
+                </p>
                 <ul>
                     <li><a href="#">Barcos e Lanchas</a></li>
                     <li><a href="#">Destaques</a></li>
@@ -65,6 +74,8 @@
         </div>
     </section>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
